@@ -6,8 +6,7 @@ print ("Please choose one of the following:")
 print ("1. Rock")
 print ("2. Paper")
 print ("3. Scissors")
-print ("4. Quit")
-userInput = int(input("Enter your choice (1,2,3,4): "))
+userInput = int(input("Enter your choice (1,2,3): "))
 
 choices = [1, 2, 3]
 compChoice = int(random.choice(choices))
